@@ -1,0 +1,80 @@
+body {
+    font-family: bookman old style;
+    color: #333;
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('background.jpg');
+    background-size: cover;  
+    background-position: center;  
+    background-repeat: no-repeat
+#login {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#login h2 {
+    font-size: 32px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+#login p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.login-form label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-form input:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    background-color: blue;
+    color: white;
+    border: dotted;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: blue;
+}
+
+.signup-link {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.signup-link a {
+    color: #4CAF50;
+    text-decoration: bold;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
